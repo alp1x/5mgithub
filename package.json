@@ -23,7 +23,6 @@
 	"dependencies": {
 		"@tailwindcss/vite": "^4.2.0",
 		"@upstash/redis": "^1.36.2",
-		"all": "^0.0.0",
 		"bits-ui": "^2.16.1",
 		"lucide-svelte": "^0.563.0",
 		"tailwindcss": "^4.2.0"
