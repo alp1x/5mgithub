@@ -14,7 +14,7 @@ git clone https://github.com/alp1x/5mgithub
 cd 5mgithub
 
 # Install dependencies
-bun bun i
+bun i
 
 # Copy environment file
 cp .env.example .env
