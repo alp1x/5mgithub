@@ -135,6 +135,11 @@ export async function searchGithubRepos(query: string, token?: string): Promise<
         }
     }
 
+    frameworkRequests.push({
+        url: buildSearchUrl(`${trimmedQuery} fivem in:readme`, 100),
+        headers
+    });
+
     const frameworkResults = await parallelFetch(frameworkRequests);
 
     const uniqueRepos = deduplicateRepos(frameworkResults);
