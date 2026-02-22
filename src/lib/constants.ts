@@ -144,6 +144,7 @@ export const VERIFIED_ORGS = [
     "XYZ-Studios",
     "Renewed-Scripts",
     "ThreeAmigosModding",
+    "Sleepless-Development"
 ];
 
 export const MIN_STARS = 5;
