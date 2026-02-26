@@ -132,7 +132,8 @@ export const VERIFIED_USERS = [
     "ThatMadCap",
     "Scullyy",
     "utkuali",
-    "jgscripts"
+    "jgscripts",
+    "MrNewb"
 ];
 
 
@@ -144,7 +145,8 @@ export const VERIFIED_ORGS = [
     "XYZ-Studios",
     "Renewed-Scripts",
     "ThreeAmigosModding",
-    "Sleepless-Development"
+    "Sleepless-Development",
+    "TheOrderFivem"
 ];
 
 export const MIN_STARS = 5;
