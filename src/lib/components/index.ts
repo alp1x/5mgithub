@@ -6,5 +6,7 @@ export { default as SearchBar } from './search/SearchBar.svelte';
 export { default as ResultsGrid } from './search/ResultsGrid.svelte';
 export { default as RepoCard } from './search/RepoCard.svelte';
 export { default as QuickTags } from './search/QuickTags.svelte';
-export { default as AuthButton } from './auth/AuthButton.svelte';
+export { default as AuthButton } from './buttons/Auth.svelte';
+export { default as PinnedButton } from './buttons/Pinned.svelte';
+export { default as CoffeeButton } from './buttons/Coffee.svelte';
 export { default as PinnedRepos } from './repos/PinnedRepos.svelte';

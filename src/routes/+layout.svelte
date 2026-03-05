@@ -1,6 +1,11 @@
 <script lang="ts">
 	import "../app.css";
-	import { AuthButton, PinnedRepos } from "$lib/components";
+	import {
+		AuthButton,
+		PinnedRepos,
+		PinnedButton,
+		CoffeeButton,
+	} from "$lib/components";
 	import { page } from "$app/state";
 	import { onMount } from "svelte";
 	import { pinnedRepos } from "$lib/stores";
@@ -24,7 +29,11 @@
 	<meta name="twitter:url" content={page.url.href} />
 </svelte:head>
 
-<AuthButton session={data.session} onPinnedClick={togglePinned} />
+<div class="fixed top-4 right-4 z-50 flex items-center gap-2 sm:fixed">
+	<CoffeeButton />
+	<PinnedButton onPinnedClick={togglePinned} />
+	<AuthButton session={data.session} />
+</div>
 
 {#if showPinned}
 	<div
