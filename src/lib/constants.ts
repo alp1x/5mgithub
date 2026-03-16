@@ -133,7 +133,8 @@ export const VERIFIED_USERS = [
     "Scullyy",
     "utkuali",
     "jgscripts",
-    "MrNewb"
+    "MrNewb",
+    "alberttheprince"
 ];
 
 
